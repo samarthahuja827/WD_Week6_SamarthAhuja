@@ -1,5 +1,5 @@
 
-# InternNova — Internship Website
+# InternNova Final Project — Internship Website Redesign Implementation
 
 ## Project Overview
 InternNova is a responsive internship website built using HTML, CSS, and JavaScript. It presents internship programs, domains, workshops, testimonials, FAQs, and an application form.
