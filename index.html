@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InternNova | Internships and Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 1. NAVIGATION BAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Intern<span>Nova</span></a>
+      <button id="menu-btn" class="menu-btn">Menu</button>
+      <nav id="nav-links" class="nav-links">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#why">Why Us</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#apply" class="btn btn-gold">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- 2. HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div>
+          <h1>Build real skills. <br>Land real jobs in <span id="rotating-word">AI</span>.</h1>
+          <p>Project-based internships with expert mentors and certificates that employers can verify online.</p>
+          <a href="#programs" class="btn btn-gold">Explore Programs</a>
+          <a href="#how" class="btn btn-outline">How it works</a>
+        </div>
+        <div class="hero-card">
+          <h3>What you get</h3>
+          <ul>
+            <li>Real-world projects</li>
+            <li>1:1 mentor sessions</li>
+            <li>Verified certificate</li>
+            <li>Resume and LinkedIn review</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. STATISTICS -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div>
+          <h2 class="count" data-target="1000">0</h2>
+          <p>Students trained</p>
+        </div>
+        <div>
+          <h2 class="count" data-target="6">0</h2>
+          <p>Industry domains</p>
+        </div>
+        <div>
+          <h2 class="count" data-target="6">0</h2>
+          <p>Weeks per internship</p>
+        </div>
+        <div>
+          <h2 class="count" data-target="100">0</h2>
+          <p>% verified certificates</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="title">About InternNova</h2>
+        <p class="subtitle">InternNova is an internship and certification platform for students in India. We focus on
+          hands-on work, so you finish with projects you can show to employers, not just notes from a class.</p>
+      </div>
+    </section>
+
+    <!-- 5. PROGRAMS (with filter buttons) -->
+    <section id="programs" class="section dark">
+      <div class="container">
+        <h2 class="title">Internship Programs</h2>
+        <p class="subtitle">Choose the level that matches where you are right now.</p>
+
+        <div class="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="basic">Basic</button>
+          <button class="filter" data-filter="pro">Pro</button>
+          <button class="filter" data-filter="premium">Premium Courses</button>
+        </div>
+
+        <div class="cards">
+          <div class="card" data-category="basic">
+            <span class="tag">Basic - 6 weeks</span>
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript and a final project.</p>
+            <a href="#apply" class="btn btn-outline">Apply</a>
+          </div>
+          <div class="card" data-category="basic">
+            <span class="tag">Basic - 6 weeks</span>
+            <h3>Data Analytics</h3>
+            <p>Excel, SQL and dashboard creation.</p>
+            <a href="#apply" class="btn btn-outline">Apply</a>
+          </div>
+          <div class="card" data-category="basic">
+            <span class="tag">Basic - 6 weeks</span>
+            <h3>Cyber Security</h3>
+            <p>Network security and ethical hacking basics.</p>
+            <a href="#apply" class="btn btn-outline">Apply</a>
+          </div>
+          <div class="card" data-category="pro">
+            <span class="tag">Pro - 6 weeks</span>
+            <h3>Artificial Intelligence</h3>
+            <p>Mentor-led projects with career guidance.</p>
+            <a href="#apply" class="btn btn-outline">Apply</a>
+          </div>
+          <div class="card" data-category="pro">
+            <span class="tag">Pro - 6 weeks</span>
+            <h3>AI and Machine Learning</h3>
+            <p>Build models on industry-style tasks.</p>
+            <a href="#apply" class="btn btn-outline">Apply</a>
+          </div>
+          <div class="card" data-category="pro">
+            <span class="tag">Pro - 6 weeks</span>
+            <h3>CAD Design and Drafting</h3>
+            <p>Drawing and design work reviewed by experts.</p>
+            <a href="#apply" class="btn btn-outline">Apply</a>
+          </div>
+          <div class="card" data-category="premium">
+            <span class="tag">Course - 90 days</span>
+            <h3>Data Structures and Algorithms</h3>
+            <p>Crack coding interviews. Rs 2,999</p>
+            <a href="#apply" class="btn btn-outline">Enroll</a>
+          </div>
+          <div class="card" data-category="premium">
+            <span class="tag">Course - 90 days</span>
+            <h3>Java Programming</h3>
+            <p>Core Java, OOP and collections. Rs 2,999</p>
+            <a href="#apply" class="btn btn-outline">Enroll</a>
+          </div>
+          <div class="card" data-category="premium">
+            <span class="tag">Course - 90 days</span>
+            <h3>Data Analytics and BI</h3>
+            <p>Visualization with real datasets. Rs 2,999</p>
+            <a href="#apply" class="btn btn-outline">Enroll</a>
+          </div>
+          <div class="card" data-category="premium">
+            <span class="tag">Course - 90 days</span>
+            <h3>Python to AI Developer</h3>
+            <p>From Python basics to machine learning. Rs 2,999</p>
+            <a href="#apply" class="btn btn-outline">Enroll</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. DOMAINS -->
+    <section class="section">
+      <div class="container">
+        <h2 class="title">Internship Domains</h2>
+        <div class="chips">
+          <span>Web Development</span><span>Data Analytics</span><span>Cyber Security</span>
+          <span>Artificial Intelligence</span><span>Machine Learning</span><span>CAD Design</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. WHY CHOOSE US -->
+    <section id="why" class="section dark">
+      <div class="container">
+        <h2 class="title">Why Choose InternNova</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Real Projects</h3>
+            <p>Work on tasks based on real industry problems.</p>
+          </div>
+          <div class="card">
+            <h3>Expert Mentors</h3>
+            <p>Get weekly feedback on your actual work.</p>
+          </div>
+          <div class="card">
+            <h3>Verified Certificate</h3>
+            <p>Each certificate has a unique ID employers can check.</p>
+          </div>
+          <div class="card">
+            <h3>Flexible Learning</h3>
+            <p>Study online at your own pace around college.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. LEARNING AND MENTORSHIP -->
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="title">Learning and Mentorship</h2>
+        <p class="subtitle">Your path from signing up to getting certified.</p>
+        <div class="cards">
+          <div class="card">
+            <h3>Step 1: Apply</h3>
+            <p>Pick a program and complete the enrollment form.</p>
+          </div>
+          <div class="card">
+            <h3>Step 2: Learn</h3>
+            <p>Open your dashboard for tasks and learning material.</p>
+          </div>
+          <div class="card">
+            <h3>Step 3: Build</h3>
+            <p>Finish weekly projects with help from your mentor.</p>
+          </div>
+          <div class="card">
+            <h3>Step 4: Get certified</h3>
+            <p>Pass the final review and receive your certificate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. WORKSHOPS -->
+    <section id="workshops" class="section dark">
+      <div class="container">
+        <h2 class="title">Workshops</h2>
+        <div class="event">
+          <div>
+            <h3>Data Structures and Algorithms Workshop</h3>
+            <p>24 Oct 2026, 6:00 PM - Online</p>
+          </div>
+          <a href="#apply" class="btn btn-gold">Register</a>
+        </div>
+        <div class="event">
+          <div>
+            <h3>Python Data Analytics Workshop</h3>
+            <p>24 Oct 2026, 4:00 PM - Online</p>
+          </div>
+          <a href="#apply" class="btn btn-gold">Register</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. TESTIMONIALS (slider) -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <h2 class="title">What Interns Say</h2>
+        <div class="review">
+          <p id="review-text"></p>
+          <small id="review-name"></small>
+        </div>
+        <button id="prev" class="btn btn-outline">Previous</button>
+        <button id="next" class="btn btn-outline">Next</button>
+      </div>
+    </section>
+
+    <!-- 11. FAQ -->
+    <section id="faq" class="section dark">
+      <div class="container">
+        <h2 class="title">Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <button class="faq-question">Do I need prior coding experience?</button>
+          <p class="faq-answer">No. Basic internships start from the fundamentals.</p>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Will I get a verified certificate?</button>
+          <p class="faq-answer">Yes. Every certificate has a unique ID that can be verified on our website.</p>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Are the internships paid?</button>
+          <p class="faq-answer">No. They are learning-focused programs that build your skills and portfolio.</p>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How does placement support work?</button>
+          <p class="faq-answer">We help with resume reviews, portfolio feedback and interview preparation. Placement is
+            not guaranteed.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. CALL TO ACTION -->
+
+    <section id="apply" class="cta">
+      <div class="container">
+        <h2>Ready to Start Your First Real Project?</h2>
+        <p>Fill out the form below to apply for an internship program.</p>
+
+        <form id="applicationForm" class="application-form">
+          <div class="form-group">
+            <label for="applicantName">Full Name</label>
+            <input type="text" id="applicantName" name="name" placeholder="Enter your full name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="applicantEmail">Email Address</label>
+            <input type="email" id="applicantEmail" name="email" placeholder="Enter your email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="domain">Select Internship Domain</label>
+            <select id="domain" name="domain" required>
+              <option value="">Choose a domain</option>
+              <option value="web-development">Web Development</option>
+              <option value="app-development">App Development</option>
+              <option value="ai-ml">AI / Machine Learning</option>
+              <option value="data-science">Data Science</option>
+              <option value="cyber-security">Cyber Security</option>
+              <option value="ui-ux">UI/UX Design</option>
+              <option value="cloud-computing">Cloud Computing</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="program">Select Program Level</label>
+            <select id="program" name="program" required>
+              <option value="">Choose a program</option>
+              <option value="basic">Basic</option>
+              <option value="pro">Pro</option>
+              <option value="premium">Premium</option>
+            </select>
+          </div>
+
+
+          <button type="submit" class="btn btn-white">Submit Application</button>
+
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 13. FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo">Intern<span>Nova</span></a>
+        <p>Build real skills. Land real jobs.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#programs">Programs</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:support@internnova.co.in">support@internnova.co.in</a>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 InternNova. Redesign project.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
