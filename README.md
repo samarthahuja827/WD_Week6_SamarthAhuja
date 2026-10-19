@@ -36,7 +36,7 @@ InternNova is a responsive internship website built using HTML, CSS, and JavaScr
 2. Open `index.html` in a web browser.
 
 ## Live Website
-Coming soon — deployed using GitHub Pages.
+https://samarthahuja827.github.io/WD_Week6_SamarthAhuja/ — deployed using GitHub Pages.
 
 ## Future Improvements
 - Connect the application form to a backend.
